@@ -27,7 +27,9 @@ Usage: ```xssor.py [-h] -u URL [-l LIST] [-t THREADS] [-o OUTPUT]```
 
 # Examples
 To test a single URL using four threads and save the results to a file named results.txt, run the following command:
+
 ```python xssor.py -u http://example.com -t 4 -o results.txt```
 
 To test a list of URLs contained in a file named urls.txt using eight threads and save the results to a file named results.txt, run the following command:
+
 ```python xssor.py -l urls.txt -t 8 -o results.txt```
