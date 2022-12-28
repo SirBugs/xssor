@@ -19,7 +19,9 @@ xssor takes four arguments:
     -o or --output: the name of the file to save the results to.
 ```
 Usage:
-```xssor.py [-h] -u URL [-l LIST] [-t THREADS] [-o OUTPUT]```
+```
+xssor.py [-h] -u URL [-l LIST] [-t THREADS] [-o OUTPUT]
+```
 
 # Examples
 To test a single URL using four threads and save the results to a file named results.txt, run the following command:
