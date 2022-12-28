@@ -17,19 +17,6 @@ xssor takes four arguments:
 Usage:
 ```xssor.py [-h] -u URL [-l LIST] [-t THREADS] [-o OUTPUT]```
 
-# optional arguments
-  -h, --help            show this help message and exit
-  
-  -u URL, --url URL     the URL to test for XSS vulnerabilities
-  
-  -l LIST, --list LIST  a file containing a list of URLs to test for XSS vulnerabilities
-  
-  -t THREADS, --threads THREADS
-                        the number of threads to use for testing
-                        
-  -o OUTPUT, --output OUTPUT
-                        the name of the file to save the results to
-
 # Examples
 To test a single URL using four threads and save the results to a file named results.txt, run the following command:
 
@@ -38,3 +25,6 @@ To test a single URL using four threads and save the results to a file named res
 To test a list of URLs contained in a file named urls.txt using eight threads and save the results to a file named results.txt, run the following command:
 
 ```python xssor.py -l urls.txt -t 8 -o results.txt```
+
+# Coder
+Written in python3, By @SirBagoza
