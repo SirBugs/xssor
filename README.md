@@ -10,11 +10,8 @@ To install xssor, clone the repository and run the following command:
 xssor takes four arguments:
 ```
     -u or --url: the URL to test for XSS vulnerabilities.
-    
     -l or --list: a file containing a list of URLs to test for XSS vulnerabilities.
-    
     -t or --threads: the number of threads to use for testing.
-    
     -o or --output: the name of the file to save the results to.
 ```
 Usage:
@@ -22,10 +19,14 @@ Usage:
 
 # optional arguments
   -h, --help            show this help message and exit
+  
   -u URL, --url URL     the URL to test for XSS vulnerabilities
+  
   -l LIST, --list LIST  a file containing a list of URLs to test for XSS vulnerabilities
+  
   -t THREADS, --threads THREADS
                         the number of threads to use for testing
+                        
   -o OUTPUT, --output OUTPUT
                         the name of the file to save the results to
 
