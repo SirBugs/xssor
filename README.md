@@ -2,8 +2,6 @@
 xssor is a Python tool that tests for cross-site scripting (XSS) vulnerabilities by sending payloads through the parameters in URLs.
 It can be used for single URL testing using the -u or --url option, or for testing multiple URLs using the -l or --list option.
 
-Installation
-
 # Installation
 To install xssor, clone the repository and run the following command:
 ```pip install -r requirements.txt```
